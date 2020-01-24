@@ -48,3 +48,14 @@
  h1, .card-title {
   font-family: "Lobster", cursive;
 } 
+
+.navbar-light {
+  background-color: #bc915c;
+  margin-top: 10px; margin-bottom:50px;
+}
+
+.site-footer {
+  background-image: linear-gradient(#bc915c, white);
+  padding: 20px 0;
+}
+

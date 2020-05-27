@@ -35,6 +35,7 @@ class Main extends Component{
         return(
             <div>
                 <Header />
+               {/*  The Switch component will render exact matches, and only the exact match. This makes it ideal for these nested scenarios. */}
                 <Switch>
                 <Route exact path='/home' component={HomeComponent} />
                     <Route exact path='/menu'  render={() => <Menu menu={this.state.menus} />}></Route>

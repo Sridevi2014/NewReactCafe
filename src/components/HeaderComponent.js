@@ -47,9 +47,9 @@ class Header extends Component {
                                         </NavItem>
                                     </Nav>
                                 </Collapse>
-                            </div>
-                        </div>   
-                    </Navbar> 
+                                </div>
+                        </div>  
+                        </Navbar> 
             </React.Fragment>
         );
     }
